@@ -7,7 +7,12 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
-
+h1 {
+  text-align: center;
+}
+h4 {
+  line-height: 150%;
+}
 .jumbotron {
   border-radius: 0px;
 }
