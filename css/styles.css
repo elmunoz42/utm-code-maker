@@ -1,0 +1,37 @@
+
+body {
+  background-color: lightgrey;
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.jumbotron {
+  border-radius: 0px;
+}
+.btn {
+  margin-top: 10px;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+.container {
+  margin-top: 10px;
+}
+#order-form input {
+  width: 100%;
+}
+#order-form {
+  margin-top: 20px;
+}
+#top-row {
+  margin-bottom: 18px;
+}
+#title h2{
+  text-shadow: 1px 1px 2px grey;
+  font-weight: bold;
+}

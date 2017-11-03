@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>UTM CODE MAKER</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row" id="top-row">
+      <h2>Super Simple UTM Code Maker</h2>
+      <br>
+      <h4>-> Just fill out the form bellow and copy paste the utm code as the link for your ppc or social media post.
+      <h4>-> For other hacky sales/marketing/entrepreneurship solutions check out <a href="https://cloudengage.com/resources/blog/" target="_blank"> --> our CloudEngage Business Solutions blog!!!!</a></h4>
+
+      <!-- title column -->
+    </div>
+    <!-- row -->
+    <a name="#application"></a>
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="jumbotron" id="gray">
+          <form id="order-form">
+
+            <h3>UTM Code Form</h3>
+            <label>What's the url of the page you want to link to?</label>
+            <input id="web-page" type="text" value="https://cloudengage.com/plans/"></input><br>
+            <input id="campaign-source" type="text" value="adwords"></input><br>
+            <input id="campaign-medium" type="text" value="banner"></input><br>
+            <input id="campaign-name" type="text" value="holiday2017"></input><br>
+            <input id="campaign-term" type="text" value="keyword"></input><br>
+            <input id="campaign-content" type="text" value="firstadd"></input><br>
+
+            <button type="submit" class="btn" name="button">Create URL</button>
+          </form>
+          <!-- order-form -->
+
+        </div>
+        <!-- jumbotron -->
+      </div>
+      <!-- left column -->
+      <div class="col-md-8" >
+        <div class="jumbotron" id="gray">
+          <h3>Your Google Analytics and CloudEngage optimized UTM Code</h3>
+          <br>
+          <div style="border: 1px solid black;">
+            <pre id="output"></pre>
+          </div>
+
+        </div>
+        <!-- jumbotron -->
+      </div>
+      <!-- right column -->
+    </div>
+    <!-- row 1 -->
+  </div>
+  <!-- container -->
+</body>
+</html>
