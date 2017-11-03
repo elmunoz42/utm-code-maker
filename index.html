@@ -12,8 +12,8 @@
     <div class="row" id="top-row">
       <h2>Super Simple UTM Code Maker</h2>
       <br>
-      <h4>-> Just fill out the form bellow and copy paste the utm code as the link for your ppc or social media post.
-      <h4>-> For other hacky sales/marketing/entrepreneurship solutions check out <a href="https://cloudengage.com/resources/blog/" target="_blank"> --> our CloudEngage Business Solutions blog!!!!</a></h4>
+      <h4>- Just fill out the form bellow and copy paste the utm code as the link for your ppc or social media post.
+      <h4>- For other innovative sales/marketing/entrepreneurship solutions check out <a href="https://cloudengage.com/resources/blog/" target="_blank"><button style="height: 30px;">-> Our CloudEngage Business Solutions blog.</button></a></h4>
 
       <!-- title column -->
     </div>
@@ -26,13 +26,15 @@
           <form id="order-form">
 
             <h3>UTM Code Form</h3>
-            <label>What's the url of the page you want to link to?</label>
-            <input id="web-page" type="text" value="https://cloudengage.com/plans/"></input><br>
-            <input id="campaign-source" type="text" value="adwords"></input><br>
-            <input id="campaign-medium" type="text" value="banner"></input><br>
-            <input id="campaign-name" type="text" value="holiday2017"></input><br>
-            <input id="campaign-term" type="text" value="keyword"></input><br>
-            <input id="campaign-content" type="text" value="firstadd"></input><br>
+            <label>What's the url of the page you want to link to?</label><br>
+            *required <br>
+            <input id="web-page" type="text" placeholder="https://cloudengage.com/plans/" required></input><br>
+            *required <br>
+            <input id="campaign-source" type="text" placeholder="adwords" required></input><br>
+            <input id="campaign-medium" type="text" placeholder="banner"></input><br>
+            <input id="campaign-name" type="text" placeholder="holiday2017"></input><br>
+            <input id="campaign-term" type="text" placeholder="keyword"></input><br>
+            <input id="campaign-content" type="text" placeholder="firstadd"></input><br>
 
             <button type="submit" class="btn" name="button">Create URL</button>
           </form>
@@ -44,12 +46,10 @@
       <!-- left column -->
       <div class="col-md-8" >
         <div class="jumbotron" id="gray">
-          <h3>Your Google Analytics and CloudEngage optimized UTM Code</h3>
+          <h3>Your GA and <a href="https://cloudengage.com">CloudEngage</a> optimized UTM Code</h3>
           <br>
-          <div style="border: 1px solid black;">
-            <pre id="output"></pre>
-          </div>
-
+          <pre id="output" ></pre>
+          <button onclick="copyToClipboard('#output')">Copy To Clipboard</button>
         </div>
         <!-- jumbotron -->
       </div>
