@@ -1,7 +1,7 @@
 //business logic
 
 function utmCodeMaker(url, source, medium, name, term, content) {
-  alert(url + source + medium + name + term + content);
+
   var params = [];
   var code = url + "?utm_source=" + source;
 
@@ -19,7 +19,7 @@ function utmCodeMaker(url, source, medium, name, term, content) {
   }
   for (var i = 0; i < params.length; i++) {
     code = code + "&" + params[i];
-    alert(code);
+
   }
 
   return code;
