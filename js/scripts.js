@@ -9,7 +9,7 @@ function utmCodeMaker(url, source, medium, name, term, content) {
     params.push("utm_medium=" + medium);
   }
   if (name){
-    params.push("utm_name=" +name);
+    params.push("utm_campaign=" +name);
   }
   if (term){
     params.push("utm_term=" +term);
